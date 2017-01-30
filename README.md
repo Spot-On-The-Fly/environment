@@ -18,4 +18,10 @@ To get files into the the linux environment, there is a shared folder setup so t
 `/vagrant/`
 
 ##access on the web
-if you've wrote something in nodejs which requires accesing `localhost:4444` or something like that then you will need to use port 4444 as I have set up the port forwarding on the vagrant machine to work with this port.
+if you've wrote something in nodejs which requires accesing `localhost:4444` or something like that then you will need to use port 4444 as I have set up the port forwarding on the vagrant machine to work with this port. if you want to access:
+
+`http://localhost:4444` 
+
+then please go to 
+
+`http://192.168.50.2:4444/` 
